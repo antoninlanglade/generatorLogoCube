@@ -8,7 +8,7 @@ var generatorGrid = {
 	},
 	createGrid : function(param){
 		var s = Snap("#svg");
-		// this.gridTab1[0][0] = 'test';
+
 		console.log(this.gridTab1);
 		var color = this.pickColor();
 		for(i=0;i<param/2;i++){
@@ -22,7 +22,6 @@ var generatorGrid = {
 					});
 					this.gridTab1[i][j] = 1;
 					this.gridTab2[((param/2-1)-i)][j] = 1;
-					// console.log('tab['+((param/2-1)-init)+']['+j+']');
 				}
 				else{
 					this.gridTab1[i][j] = 0;
@@ -55,6 +54,5 @@ var generatorGrid = {
 		return randomPick;
 	}
 }
-//$(document).ready(function(){
-	generatorGrid.init();
-//});
+
+generatorGrid.init();
