@@ -2,11 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Invaders Generator</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="res/css/vendor/reset.css" />
+    <link rel="stylesheet" href="res/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="res/css/style.css" />
 </head>
 <body>
-<svg id="svg"></svg>
-<script src="snap.svg-min.js"></script>
-<script src="script.js"></script>
+<div class="container">
+	<h1>Invaders Generator</h1>
+	<canvas id="canvas" style="display:none;"></canvas>
+	<svg id="svg"></svg>
+	<div class="hidden_container"></div>
+	<button type="button" class="restart btn btn-default">Générer un nouvel Invaders</button>
+</div>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="res/js/vendor/snap.svg-min.js"></script>
+<script src="res/js/vendor/canvg.js"></script>
+<script src="res/js/script.js"></script>
+<script src="res/js/app.js"></script>
 </body>
 </html>
