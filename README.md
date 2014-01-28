@@ -3,13 +3,12 @@ generatorLogoCube
 
 A little library that generates symmetrical logos in SVG like SpaceInvaders !
 
-How to use ?
-============
+##How to use ?
+
 
 You have to copy the content of app.js in your own application and add the link to the generatorLogoCube.js in your DOM.
 
-Functions
-=========
+##Functions
 
 There are two functions in your app.js :
 
