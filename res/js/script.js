@@ -10,6 +10,7 @@ var generatorGrid = {
 		this.initWidth(length,id);
 		this.createTab();
 		this.createGrid(length,id);
+		this.downloadPng();
 	},
 	createGrid : function(param,id){
 		var s = Snap('#'+id),
@@ -65,6 +66,9 @@ var generatorGrid = {
 			'height' : length*57+'px'
 		});
 	},
+	downloadPng : function(){
+
+	},
 	restart : function(length,id){
 		$('#'+id).html('');
 		this.gridTab1 = new Array();
@@ -75,5 +79,6 @@ var generatorGrid = {
 		this.initWidth(length,id);
 		this.createTab();
 		this.createGrid(length,id);
+		this.downloadPng();
 	}
 }
