@@ -12,9 +12,11 @@ You have to copy the content of app.js in your own application and add the link 
 
 There are two functions in your app.js :
 
--> generatorGrid.init(param1,param2) 
+#### generatorGrid.init(param1,param2) 
+
 First argument is the number of rows and columns of your cube
 Second argument is the ID in your DOM of your SVG tag
 
--> generatorGrid.restart(param1,param2)
+#### generatorGrid.restart(param1,param2)
+
 Same arguments 
